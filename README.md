@@ -65,7 +65,7 @@ predictions = model.predict(input_data)
 While the Lumi-HSP model boasts a high accuracy rate of 95%, it's essential to use its predictions as an initial warning rather than a definitive diagnosis. Relying solely on the model may not be advisable, as there are instances where it could yield incorrect results. Always consult a medical professional for accurate health assessments.
 
 # Contributor
-This project was developed by Santhan Kumar and is provided as-is under the General License.
+This project was developed by Santhan Kumar and is provided as-is under the GNU General Public License v3.0
 
 
 By using Lumi-HSP, you're tapping into advanced predictive capabilities. Remember, health decisions should be made with care and consultation with medical experts. Enjoy the benefits of data-driven insights while prioritizing your well-being.

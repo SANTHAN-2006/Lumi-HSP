@@ -22,10 +22,12 @@ Install Required Libraries:
 # Getting Started
 
 # Instructions to use the model for predictions
-1. Download the Model:
+1. **Download the Model**:
+ 
 Download the model's file from the Latest release tag.
 
-2. Load the Model:
+2. **Load the Model**:
+ 
 load the model using the joblib.load() function from the joblib library. 
 Provide the path to the downloaded model file as an argument.
 
@@ -41,13 +43,13 @@ model = joblib.load("path_to_final_model.pkl")
 
 
 
-3. Prepare Input Data:
+3. **Prepare Input Data**:
 
 Make sure the Input data format is similar to the one's as mentioned in above Images (data format 1, data format 2).
 
 If not, Please make sure to preprocess your data to match it to the encoding of GradientBoosting algorithm.
 
-4. Make Predictions:
+4. **Make Predictions**:
 
 You can call the predict() method on the loaded model and pass the preprocessed input data to get predictions.
 
